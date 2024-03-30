@@ -18,16 +18,7 @@ export default authMiddleware({
         "/api/mentor/addAvailability",
         "/api/posts",
         "/api/mentor/Feedback",
-        "/api/student/Feedback",
-        // "/api/user/mentor",
-        // "/api/user/student",
-        // "/api/user/:id",
-        // "/api/user/mentor/getbyemail",
-        // "/api/user/mentor/createslot",
-        // "/api/user/mentor/getSlot",
-        // "/api/booking",
-        // "/api/booking/getmentorbookings",
-        // "/api/booking/getuserbookings",
+        "/api/student/Feedback"
       ],
 });
  

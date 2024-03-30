@@ -45,14 +45,14 @@ export default function Feedbacks({bookings,type}:Props){
               </div>
         </div>}
         { bookings.length>0 && 
-            <ScrollArea className={bookings.length>4?"h-screen bg-white":"bg-white"}>
+            <ScrollArea className={bookings.length>4?"h-screen bg-white":"h-5/6 bg-white"}>
               <div className="flex flex-col gap-2 p-4 pt-0">
                 {bookings.map((b) => (
                   <div key={b.id}>
                       <button
                         key={b.id}
                         className={cn(
-                          "flex flex-col items-start gap-2 rounded-lg border p-3 mt-2 text-left text-sm transition-all hover:bg-accent",
+                          "flex flex-col items-start gap-2 rounded-lg border p-3 mt-2 text-left text-sm transition-all hover:bg-accent w-full",
                         )}
                       >
                         <div className="flex w-full flex-col gap-1">

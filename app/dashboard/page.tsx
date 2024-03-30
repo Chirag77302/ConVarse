@@ -57,19 +57,19 @@ const Dashboard = () => {
                             <Row>
                                 <Col span={24}>
                                     <Carousel afterChange={onChange} autoplay={true}>
-                                        <div>
-                                          <h3 style={contentStyle}>1</h3>
-                                        </div>
-                                        <div>
-                                          <h3 style={contentStyle}>2</h3>
-                                        </div>
-                                        <div>
-                                          <h3 style={contentStyle}>3</h3>
-                                        </div>
-                                        <div>
-                                          <h3 style={contentStyle}>4</h3>
-                                        </div>
-                                    </Carousel>
+                                          <div key={"https://cdn.dribbble.com/users/11799014/screenshots/19050137/media/4751e8f4385427c401b01af2590d4b69.png"} style={contentStyle}>
+                                            <img src={"https://cdn.dribbble.com/users/11799014/screenshots/19050137/media/4751e8f4385427c401b01af2590d4b69.png"} alt="" style={{height:'400px',width:'100%'}}></img>
+                                          </div>
+                                          <div key={"https://cdn.dribbble.com/users/6811591/screenshots/16393798/media/0046a4de5a8e2bf3cbe950c60d88a779.jpg?"} style={contentStyle}>
+                                            <img src={"https://cdn.dribbble.com/users/6811591/screenshots/16393798/media/0046a4de5a8e2bf3cbe950c60d88a779.jpg?"} alt="" style={{height:'400px',width:'100%'}}></img>
+                                          </div>
+                                          <div key={"https://cdn.dribbble.com/users/6811591/screenshots/16506195/media/0df89b3f6ffe1073f5debf07b463af64.jpg"} style={contentStyle}>
+                                            <img src={"https://cdn.dribbble.com/users/6811591/screenshots/16506195/media/0df89b3f6ffe1073f5debf07b463af64.jpg"} alt="" style={{height:'400px',width:'100%'}}></img>
+                                          </div>
+                                          <div key={"https://cdn.dribbble.com/userupload/3958942/file/original-a2dab8666374cea99a4ae32886a326be.png"} style={contentStyle}>
+                                            <img src={"https://cdn.dribbble.com/userupload/3958942/file/original-a2dab8666374cea99a4ae32886a326be.png"} alt="" style={{height:'400px',width:'100%'}}></img>
+                                          </div>
+                                    </Carousel> 
                                 </Col>
                             </Row>
                       </div>,

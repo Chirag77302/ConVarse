@@ -212,9 +212,9 @@ const UnivProfile = ({ params }: { params: { id: string } }) => {
                       </Divider>
                       <Carousel autoplay>
                         {university.images.map((img)=>(
-                        <div key={img} style={contentStyle}>
-                          <img src={img} alt="" style={{height:'400px',width:'100%'}}></img>
-                        </div>
+                            <div key={img} style={contentStyle}>
+                              <img src={img} alt="" style={{height:'400px',width:'100%'}}></img>
+                            </div>
                         ))}
                       </Carousel>
                     </Col>
