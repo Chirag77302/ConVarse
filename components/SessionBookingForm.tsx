@@ -214,7 +214,7 @@ const SessionBookingForm = ({mentorDetails,slots}:Props) =>  {
                         <Card className='mt-2 w-full'>
                           <CardContent className='flex flex-row pt-4 p-4'>
                               <div className='w-4/5 flex items-center justify-start'>
-                                  <p><strong>This is a rare find.</strong> Josephine's time<br></br>
+                                  <p><strong>This is a rare find.</strong> {mentorDetails.name}'s time<br></br>
                                   on Uni-Connect is usually booked.</p>
                               </div>
                               <div className='w-1/5 flex items-center justify-end'>

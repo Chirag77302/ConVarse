@@ -38,9 +38,9 @@ export async function POST(request: NextRequest) {
         phone_number_collection: {
           enabled: false,
         },
-
-        success_url: `univ-mcxr9dwii-chirag77302.vercel.app/mentor/${body[0]["id"]}/bookSession?success=true&date=${body[0]["date"]}&start_time=${body[0]["start_time"]}&end_time=${body[0]["end_time"]}&hrduration=${body[0]["duration"]}&amount=${body[0]["amount"]}`,
-        cancel_url: `univ-mcxr9dwii-chirag77302.vercel.app/mentor/3cedcfd1-4bd7-49b5-964a-8f7c8171e64b/bookSession`,
+        // https://univ-mcxr9dwii-chirag77302.vercel.app
+        success_url: `https://univ-ten.vercel.app/mentor/${body[0]["id"]}/bookSession?success=true&date=${body[0]["date"]}&start_time=${body[0]["start_time"]}&end_time=${body[0]["end_time"]}&hrduration=${body[0]["duration"]}&amount=${body[0]["amount"]}`,
+        cancel_url: `https://univ-ten.vercel.app/mentor/3cedcfd1-4bd7-49b5-964a-8f7c8171e64b/bookSession`,
       });
       return NextResponse.json({ session });
     } else {
