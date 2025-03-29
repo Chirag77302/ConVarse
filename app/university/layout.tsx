@@ -17,13 +17,18 @@ const MenteeLayout = async ({ children }: { children: React.ReactNode }) => {
                     }
                 })
                 if(dbUniversity){
-                    profile = `/mentee/${dbUniversity.id}`;
+                    profile = `/university/${dbUniversity.id}`;
+                    return;
                 }
         }
     }
     await isUserRegistered();
     if(profile == "/"){
-        return ({children});
+        return (
+            <>
+                {children}
+            </>
+    ) 
     }else{
         return (
             <>

@@ -54,6 +54,7 @@
     "stripe": "^14.13.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
+    "univ": "file:",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
